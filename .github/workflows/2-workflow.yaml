@@ -1,6 +1,8 @@
 name: workflow understanding
 
-on: push
+on:
+    push:
+    pull_request:
 
 jobs: 
     echo:
