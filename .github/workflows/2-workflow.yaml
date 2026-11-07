@@ -1,0 +1,10 @@
+name: workflow understanding
+
+on: push
+
+jobs: 
+    echo:
+        runs-on: ubuntu-latect
+        steps:
+            - name: echo message printer
+              run: echo "hi from runner ${{github.event_name}} event"
